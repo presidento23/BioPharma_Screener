@@ -1,6 +1,6 @@
 # BioPharma Screener
 
-# # How does it work?
+## How does it work?
 The application takes a ~700 company long list and breaks it up into 5 pieces.  It takes those 5 seperate lists and makes an API call to TDAmeritrade. Then the data is processed to calculate % gains for the day and nominal gains for the day. The program is meant for premarket and after hours, however all times of the day work. A tkinter frame is then built to vizualize the data.
 
 
